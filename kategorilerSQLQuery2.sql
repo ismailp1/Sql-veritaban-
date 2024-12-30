@@ -1,0 +1,5 @@
+CREATE TABLE Kategoriler(
+KategoriID NVARCHAR (200) ,
+ KategoriAdý NVARCHAR (200),
+ Çeþitler NVARCHAR (200),
+);insert into Kategorilervalues(1,'Ýçecekler','Alkolsüz içecekler,Alkollü içecekler,Soðuk-Sýcak içecekler,Kahve,Çay,Asitli içecekler,Asitsiz içecekler'),(2,'Et/Tavuk ürünleri','Izgara, Tava, Þiþ, az-orta-çok piþmiþ'),(3, 'Çeþniler','Tatlý ve tuzlu soslar, çeþniler, sürülebilir malzemeler ve baharatlar'),(4,'Tatlýlar','Tatlýlar, þekerlemeler ve tatlý ekmekler'),(5,'Süt Ürünleri','Yoðurt, ayran, farklý peynir çeþitleri, kaymak ve tereyaðý'),(6,'Tahýl Ürünleri','Ekmek, pirinç, makarna, eriþte, kuskus, bulgur, yulaf, arpa ve kahvaltýlýk tahýllar'),(7,'El yapýmý ürünler','Kurutulmuþ meyve ,reçel,bal,kaymak,yoðurt'),(8,'Deniz Ürünleri','Balýk,yengeç,karides,midye,yosun,deniz kereveti,ýstakoz');
